@@ -1,0 +1,10 @@
+﻿Console.WriteLine("enter length,breadth for rectangle");
+int l = Convert.ToInt16(Console.ReadLine());
+int b = Convert.ToInt16(Console.ReadLine());
+int areal;
+areal = (l*b);
+Console.WriteLine(areal);
+Console.WriteLine("Enter length of side of square");
+int side = Convert.ToInt16(Console.ReadLine());
+int area2 = (side*side);
+Console.WriteLine(area2);
